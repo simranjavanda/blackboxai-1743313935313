@@ -1,0 +1,44 @@
+/* Custom styles for French Institute */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Instructor card hover effect */
+.instructor-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Special offer badge */
+.special-badge {
+  background-color: #ef4444; /* Tailwind red-500 */
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #dc2626; /* Tailwind red-600 */
+  transform: translateY(-2px);
+}
+
+/* Navy blue background */
+.bg-navy {
+  background-color: #1e3a8a; /* Tailwind blue-900 */
+}
