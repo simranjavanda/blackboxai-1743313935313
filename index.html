@@ -1,0 +1,130 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Elite French Institute | 20% Off Limited Offer</title>  
+  <script src="https://cdn.tailwindcss.com"></script>  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+  <link rel="stylesheet" href="styles.css">  
+</head>  
+<body class="font-sans bg-gray-50">  
+  <!-- Header -->  
+  <header class="bg-blue-900 text-white p-4 shadow-md">  
+    <div class="container mx-auto flex justify-between items-center">  
+      <h1 class="text-2xl font-serif">Elite French Institute</h1>  
+      <nav>  
+        <ul class="flex space-x-6">  
+          <li><a href="#features" class="hover:text-red-300">Why Us?</a></li>  
+          <li><a href="#instructors" class="hover:text-red-300">Instructors</a></li>  
+          <li><a href="#enroll" class="bg-red-500 px-4 py-2 rounded-full hover:bg-red-600">Enroll Now</a></li>  
+        </ul>  
+      </nav>  
+    </div>  
+  </header>  
+
+  <!-- Hero Section -->  
+  <section class="relative bg-blue-900 text-white py-20">  
+    <div class="container mx-auto text-center">  
+      <span class="bg-red-500 text-white px-6 py-2 rounded-full text-sm animate-pulse">20% OFF FIRST 50 STUDENTS</span>  
+      <h2 class="text-4xl font-serif mt-6">Master French with Native-Level Instructors</h2>  
+      <p class="text-xl mt-4">Job references included • Flexible schedules for adults & students</p>  
+      <div class="mt-8">  
+        <a href="#enroll" class="bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full mr-4">Claim Discount</a>  
+        <a href="#instructors" class="border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-full">Meet Instructors</a>  
+      </div>  
+    </div>  
+  </section>  
+
+  <!-- Features -->
+  <section id="features" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-serif text-center text-blue-900">Why Choose Us?</h3>
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="text-center p-6 border border-blue-100 rounded-lg">
+          <i class="fas fa-briefcase text-red-500 text-4xl mb-4"></i>
+          <h4 class="text-xl font-semibold">Job References</h4>
+          <p class="mt-2">Get certified recommendations for employers.</p>
+        </div>
+        <div class="text-center p-6 border border-blue-100 rounded-lg">
+          <i class="fas fa-chalkboard-teacher text-red-500 text-4xl mb-4"></i>
+          <h4 class="text-xl font-semibold">Expert Instructors</h4>
+          <p class="mt-2">Native speakers with 10+ years experience.</p>
+        </div>
+        <div class="text-center p-6 border border-blue-100 rounded-lg">
+          <i class="fas fa-clock text-red-500 text-4xl mb-4"></i>
+          <h4 class="text-xl font-semibold">Flexible Schedules</h4>
+          <p class="mt-2">Morning/evening classes for all ages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors -->
+  <section id="instructors" class="py-16 bg-gray-50">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-serif text-center text-blue-900">Meet Our French Experts</h3>
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="instructor-card bg-white p-6 rounded-lg shadow-md text-center transition-all">
+          <img src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg" alt="Prof. Laurent" class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-red-500">
+          <h4 class="text-xl font-semibold mt-4">Prof. Laurent Dubois</h4>
+          <p class="text-red-500">DELF Examiner</p>
+          <p class="mt-2">15+ years teaching at Sorbonne University.</p>
+        </div>
+        <div class="instructor-card bg-white p-6 rounded-lg shadow-md text-center transition-all">
+          <img src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg" alt="Dr. Sophie" class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-red-500">
+          <h4 class="text-xl font-semibold mt-4">Dr. Sophie Martin</h4>
+          <p class="text-red-500">Business French Specialist</p>
+          <p class="mt-2">Former corporate trainer at L'Oréal Paris.</p>
+        </div>
+        <div class="instructor-card bg-white p-6 rounded-lg shadow-md text-center transition-all">
+          <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg" alt="Mr. Jean" class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-red-500">
+          <h4 class="text-xl font-semibold mt-4">Mr. Jean Lefèvre</h4>
+          <p class="text-red-500">Conversation Coach</p>
+          <p class="mt-2">Focuses on accent reduction and fluency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enrollment Form -->
+  <section id="enroll" class="py-16 bg-blue-900 text-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-serif text-center">Secure Your 20% Discount</h3>
+      <p class="text-center mt-4">Only <span id="spots-left" class="font-bold">50</span> spots available at this rate!</p>
+      
+      <div class="max-w-md mx-auto mt-8 bg-white rounded-lg shadow-lg overflow-hidden">
+        <div class="bg-red-500 text-white text-center py-2">
+          <h4 class="text-xl font-bold">Enrollment Form</h4>
+        </div>
+        <form class="p-6 text-gray-800">
+          <div class="mb-4">
+            <label class="block mb-2">Full Name</label>
+            <input type="text" class="w-full p-2 border rounded" required>
+          </div>
+          <div class="mb-4">
+            <label class="block mb-2">Email</label>
+            <input type="email" class="w-full p-2 border rounded" required>
+          </div>
+          <div class="mb-4">
+            <label class="block mb-2">Phone Number</label>
+            <input type="tel" class="w-full p-2 border rounded" required>
+          </div>
+          <div class="mb-4">
+            <label class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <span>I'm a student</span>
+            </label>
+          </div>
+          <button type="submit" class="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded font-bold transition">
+            Claim My Discount
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>  
+</body>  
+</html>
